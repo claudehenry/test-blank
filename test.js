@@ -1,1 +1,4 @@
-const f = () => {}
+const f = () => {
+  // test
+  return 0;
+}
