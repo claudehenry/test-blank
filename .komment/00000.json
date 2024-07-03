@@ -1,0 +1,31 @@
+[
+  {
+    "name": "cat.py",
+    "path": "cat.py",
+    "content": {
+      "structured": {
+        "description": "A function `wip()` that does nothing and comments it with a vague future intention to make it \"cool\".",
+        "items": [
+          {
+            "id": "04a496e4-599c-01a1-0443-4e5fef4d76e8",
+            "ancestors": [],
+            "description": "Simply passes the execution to a future point in time, without performing any specific action or returning a value.",
+            "params": [],
+            "returns": null,
+            "name": "wip",
+            "location": {
+              "start": 1,
+              "insert": 4,
+              "offset": " ",
+              "indent": 2,
+              "comment": null
+            },
+            "item_type": "function",
+            "length": 3,
+            "docLength": null
+          }
+        ]
+      }
+    }
+  }
+]
