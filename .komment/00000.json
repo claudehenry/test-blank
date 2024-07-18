@@ -1,0 +1,81 @@
+[
+  {
+    "name": "test.js",
+    "path": "test.js",
+    "content": {
+      "structured": {
+        "description": "A function `f` that takes a single argument `x` and returns it unchanged.",
+        "items": [
+          {
+            "id": "b9093d3b-e2ae-02ba-2349-52927428efd1",
+            "ancestors": [],
+            "description": "Takes a single argument `x` and returns it unchanged.",
+            "params": [
+              {
+                "name": "x",
+                "default_value": null,
+                "optional": false,
+                "type_name": "any",
+                "description": "Used to represent an input value that gets returned unchanged after being processed through the function's logic."
+              }
+            ],
+            "returns": {
+              "type_name": "number",
+              "description": "Xthe input value passed to it."
+            },
+            "usage": {
+              "language": "javascript",
+              "code": "let x = f(5); // The function f() takes an integer as its argument and returns it.\n",
+              "description": ""
+            },
+            "name": "f",
+            "location": {
+              "start": 1,
+              "insert": 1,
+              "offset": " ",
+              "indent": 0,
+              "comment": null
+            },
+            "item_type": "function",
+            "length": 4,
+            "docLength": null
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "cat.py",
+    "path": "cat.py",
+    "content": {
+      "structured": {
+        "description": "A function `wip()` that does nothing. The function has no arguments and does not return any value. It simply passes without performing any action.",
+        "items": [
+          {
+            "id": "06d29b19-c193-daab-1f4b-5c4ca29a8bce",
+            "ancestors": [],
+            "description": "Has no functionality as it only contains a comment \"# some day\" and does not contain any actual code to execute.",
+            "params": [],
+            "returns": null,
+            "usage": {
+              "language": "python",
+              "code": "wip([\"apple\", \"banana\", \"orange\"]) # returns a list of unique items in the input list \n",
+              "description": ""
+            },
+            "name": "wip",
+            "location": {
+              "start": 1,
+              "insert": 4,
+              "offset": " ",
+              "indent": 2,
+              "comment": null
+            },
+            "item_type": "function",
+            "length": 3,
+            "docLength": null
+          }
+        ]
+      }
+    }
+  }
+]
